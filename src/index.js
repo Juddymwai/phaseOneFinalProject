@@ -38,3 +38,6 @@ function fetchImages(){
 }
 fetchImages()
 
+function addToCart(){
+    const btn1= document.getElementById('btn1')
+}

@@ -24,6 +24,10 @@ img{
     width: 200px;
     margin-right: 20px;
 }
+#itemDetail{
+    display:flex
+
+}
 #details{
     background-color: rgb(62, 62, 82);
     height: auto;
@@ -32,4 +36,12 @@ img{
     width:50%;
     margin-top: 2em;
     
+}
+.cart{
+    padding: 4em;
+    background-color: rgb(143, 143, 51);
+    height: auto;
+    width: 40%;border-radius: 5em;
+    margin-top: 2em;
+    margin-left: 1em;
 }
