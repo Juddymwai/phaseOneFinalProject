@@ -1,17 +1,16 @@
 function displayImages(book){
     const div = document.querySelector('#nav')
-    const span= document.createElement('span')
-    div.appendChild(span)
+    // const span= document.createElement('span')
+    // div.appendChild(span)
     const img= document.createElement('img')
-    span.appendChild(img)
+    div.appendChild(img)
     img.src= book.image
 
 // fetch image details
     img.addEventListener('click', function(e){
         const div2= document.querySelector('#details')
-        const p= document.createElement('p')
-        div2.appendChild(p)
         
+
         
     })
 
