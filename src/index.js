@@ -9,7 +9,13 @@ function displayImages(book){
 // fetch image details
     img.addEventListener('click', function(e){
         const div2= document.querySelector('#details')
-        
+        const subtitles= document.querySelector('#subtitles')
+        const title= document.querySelector('#title')
+        const vote= document.querySelector('#vote')
+        const price= document.querySelector('#price')
+        title.textContent=book.name
+        vote.textContent= book.votes
+
 
         
     })
