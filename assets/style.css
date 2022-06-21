@@ -1,0 +1,11 @@
+#heading{
+    text-align: center;
+}
+.nav{
+   
+    height:15vh;
+    background-color: brown;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
