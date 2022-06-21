@@ -5,6 +5,16 @@ function displayImages(book){
     const img= document.createElement('img')
     span.appendChild(img)
     img.src= book.image
+
+// fetch image details
+    img.addEventListener('click', function(e){
+        const div2= document.querySelector('#details')
+        const p= document.createElement('p')
+        div2.appendChild(p)
+        
+        
+    })
+
 }
 // displayImages()
 
