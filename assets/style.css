@@ -4,12 +4,12 @@
 #nav{
    
     
-    background-color: brown;
+    background-color: rgb(62, 62, 82);
     display:flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height:100%;
+   
     overflow:scroll;
 }
 /* .nav-span{
@@ -25,6 +25,11 @@ img{
     margin-right: 20px;
 }
 #details{
-    background-color: blue;
+    background-color: rgb(62, 62, 82);
     height: auto;
+    padding: 4em;
+    border-radius: 5em;
+    width:50%;
+    margin-top: 2em;
+    
 }
