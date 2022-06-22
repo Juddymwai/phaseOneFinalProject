@@ -22,7 +22,7 @@ function displayImages(book){
     })
    
     const btn1= document.querySelector('form')
-    btn1.addEventListener('submit', function(e){
+    btn1.addEventListener('click', function(e){
         e.preventDefault()
         // const p = document.createElement("p")
         // car.appendChild(p)
@@ -80,6 +80,7 @@ fetchImages()
 function makePurchase(){
     const element=document.querySelector('#purchase-form')
     element.addEventListener('submit',function(e){
+    
         alert('Purchase made Successfully')
     })
 }
