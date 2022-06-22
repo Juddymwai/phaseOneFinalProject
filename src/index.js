@@ -76,5 +76,11 @@ function fetchImages(){
 }
 fetchImages()
 
-
-
+// make payment
+function makePurchase(){
+    const element=document.querySelector('#purchase-form')
+    element.addEventListener('submit',function(e){
+        alert('Purchase made Successfully')
+    })
+}
+makePurchase()
