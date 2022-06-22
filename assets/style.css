@@ -2,11 +2,14 @@ body{
     margin: auto;
     width: 80%;
     background-image: url('./back1.jpg');
+    border: 2px solid aqua
 }
 
 
 #heading{
     text-align: center;
+    color: aliceblue;
+    font-family: Georgia;
 }
 #nav{
    
@@ -46,9 +49,18 @@ img{
 }
 .cart{
     padding: 4em;
-    background-color: rgb(143, 143, 51);
+    background-color:rgb(25, 46, 46);
     height: 20em;
     width: 40%;border-radius: 5em;
     margin-top: 2em;
     margin-left: 1em;
+    color:aliceblue
+}
+label{
+    color: aliceblue;
+    font-size: 1em;
+}
+#subtitles,#vote, #title, #price1{
+    font-size:medium;
+    color: black;
 }

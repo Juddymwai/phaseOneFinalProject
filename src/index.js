@@ -31,6 +31,7 @@ function displayImages(book){
         ${title.textContent} ---
         ${price1.textContent}
 `
+
 //         // const cart=document.querySelector('#cart')
 //         // const p=document.querySelector('#items')
 
