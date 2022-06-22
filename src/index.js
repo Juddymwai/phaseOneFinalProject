@@ -22,7 +22,7 @@ function displayImages(book){
     })
    
     const btn1= document.querySelector('form')
-    btn1.addEventListener('click', function(e){
+    btn1.addEventListener('submit', function(e){
         e.preventDefault()
         // const p = document.createElement("p")
         // car.appendChild(p)
