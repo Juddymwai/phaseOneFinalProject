@@ -20,6 +20,7 @@ function displayImages(book){
         link.textContent=book.url
 
     })
+    // adds item to the cart
    
     const btn1= document.querySelector('form')
     btn1.addEventListener('submit', function(e){
@@ -32,6 +33,7 @@ function displayImages(book){
         ${price1.textContent}
     
 `
+// delete an item from the cart
         const btn2 = document.getElementById("btn2")
         btn2.style.visibility="visible"
 
