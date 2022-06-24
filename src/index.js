@@ -59,7 +59,7 @@ function displayImages(book){
 
 
 function fetchImages(){
-    fetch ('http://localhost:3000/books')
+    fetch ('https://juddymwai.github.io/phaseOneFinalProject/db.json')
     .then (function(response){
         return response.json()
 
