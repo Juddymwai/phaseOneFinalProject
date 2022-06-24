@@ -1,5 +1,5 @@
-{
-  "books": [
+
+[
   {
   "title": "Effective JavaScript",
   "subtitle": "68 Specific Ways to Harness the Power of JavaScript",
@@ -81,4 +81,4 @@
   "url": "https://itbook.store/books/9781449356378"
   }
   ]
-  }
+  
