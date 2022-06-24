@@ -14,7 +14,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a web application known as online book store that has used JS at large to make the site be more responsive and interactive. For instace it gives user the ability to select an item and see more details about it. Additionally it enables users to add selected items to the cart and make a purchase following a simple procedure.</p>
+ <p>This project is a web application known as online book store that has used JS at large to make the site be more responsive and interactive. For instace it gives user the ability to select an item and see more details about it. Additionally it enables users to add selected items to the cart and make a purchase following a simple procedure. The user can also delete a item from the cart if he or she selected it by mistake or for many other reasons</p>
 
 ## Features
 As a user of the application,you will be able to :
@@ -22,13 +22,14 @@ As a user of the application,you will be able to :
 1. you will be able to click on a book to get more details
 3. The website offers users with the option of adding the selected book to the cart
 4. when the user is ready to make a purchase he or she can do so by inputting the card details
+5. The user can also delete an item from the cart
 
  ###  Requirements
  * Access to  a computer
  * Access to internet
  ### Installation Process
  ****
-* Clone to the repo : git clone hhttps://github.com/Juddymwai/moringaIPTWO
+* Clone to the repo : git clone https://github.com/Juddymwai/phaseOneFinalProject
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
