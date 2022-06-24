@@ -30,24 +30,21 @@ function displayImages(book){
         p.innerHTML=`
         ${title.textContent} ---
         ${price1.textContent}
+    
 `
+        const btn2 = document.getElementById("btn2")
+        btn2.style.visibility="visible"
 
-//         // const cart=document.querySelector('#cart')
-//         // const p=document.querySelector('#items')
+        btn2.addEventListener("click", () => {
+            p.remove()
+            // if (click === true){}
+            // btn2.style.visibility="hidden"
+            location.reload()
+        })
 
-//         // const span2= document.querySelector('#price1')
-//         // const p = document.createElement("p")
-//         // car.appendChild(p)
-//         // p.innerHTML = ` 
-//         // // Title: ${title.textContent} <br>
-//         // // price: ${vote.textContent} <br>
-//         // // Vote: Trial
-//         // ${title.textContent} ${vote.textContent}
-//         // `
         
-//         // span2.innerText = vote.textContent
-        
-        
+
+        form.reset()
 
         
     })
