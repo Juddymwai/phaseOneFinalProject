@@ -45,7 +45,8 @@ img{
     padding: 3em;
     border-radius: 5em;
     width:40%;
-    margin-top: 2em
+    margin-top: 2em;
+    
     
 }
 .cart{
@@ -71,4 +72,11 @@ label{
 #btn2 {
     
     visibility: hidden;
+}
+#footer{
+    background-color:black;
+    padding: 2em;
+    text-align-last: center;
+    color: aliceblue;
+
 }
